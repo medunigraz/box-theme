@@ -138,11 +138,6 @@ class OC_Theme {
 		return $footer;
 	}
 
-	public function buildDocLinkToKey($key) {
-		return $this->getDocBaseUrl() . '/server/9.1/go.php?to=' . $key;
-	}
-
-
 	/**
 	 * Returns mail header color
 	 * @return string
