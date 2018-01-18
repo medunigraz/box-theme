@@ -1,0 +1,89 @@
+/**
+ * @author Jan-Christoph Borchardt, http://jancborchardt.net
+ * @copyright Copyright (c) 2015, ownCloud, Inc.
+ * @license AGPL-3.0
+ *
+ * This code is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License, version 3,
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License, version 3,
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+
+/* header color */
+/* this is the main brand color */
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+	background-color: #007b3c;
+}
+
+/* log in screen background color */
+/* gradient of the header color and a brighter shade */
+/* can also be a flat color or an image */
+#body-login {
+	background: #4a4a4a;
+        /*
+	background: #007b3c;
+	background: -moz-linear-gradient(top, #4a4a4a 0%, #007b3c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a4a4a), color-stop(100%,#007b3c));
+	background: -webkit-linear-gradient(top, #4a4a4a 0%,#007b3c 100%);
+	background: -o-linear-gradient(top, #4a4a4a 0%,#007b3c 100%);
+	background: -ms-linear-gradient(top, #4a4a4a 0%,#007b3c 100%);
+	background: linear-gradient(top, #4a4a4a 0%,#007b3c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#007b3c',GradientType=0 );
+        */
+}
+
+/* primary action button, use sparingly */
+/* header color as border, brighter shade again, here as background */
+.primary,
+input[type="submit"].primary,
+input[type="button"].primary,
+button.primary,
+.button.primary,
+.primary:active,
+input[type="submit"].primary:active,
+input[type="button"].primary:active,
+button.primary:active,
+.button.primary:active {
+	border-color: #007b3c;
+	background-color: #4a4a4a;
+}
+.primary:hover,
+input[type="submit"].primary:hover,
+input[type="button"].primary:hover,
+button.primary:hover,
+.button.primary:hover,
+.primary:focus,
+input[type="submit"].primary:focus,
+input[type="button"].primary:focus,
+button.primary:focus,
+.button.primary:focus {
+	background-color: #51ae32;
+}
+.primary:active, input[type="submit"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active,
+.primary:disabled, input[type="submit"].primary:disabled, input[type="button"].primary:disabled, button.primary:disabled, .button.primary:disabled,
+.primary:disabled:hover, input[type="submit"].primary:disabled:hover, input[type="button"].primary:disabled:hover, button.primary:disabled:hover, .button.primary:disabled:hover,
+.primary:disabled:focus, input[type="submit"].primary:disabled:focus, input[type="button"].primary:disabled:focus, button.primary:disabled:focus, .button.primary:disabled:focus {
+	background-color: #007b3c;
+}
+
+/* use logos from theme */
+#header .logo {
+	background-image: url('../img/logo.svg');
+	width: 250px;
+	height: 250px;
+}
+#header .logo-icon {
+	background-image: url('../img/logo-icon.svg');
+	width: 62px;
+	height: 34px;
+}
