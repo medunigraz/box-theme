@@ -20,6 +20,14 @@
 class OC_Theme {
 
   /**
+   * Returns the current year
+   * @return string year
+   */
+  public function getYear() {
+    return strftime('%Y');
+  }
+
+  /**
    * Returns the base URL
    * @return string URL
    */
@@ -120,7 +128,7 @@ class OC_Theme {
    * @return string short footer
    */
   public function getShortFooter() {
-    $footer = '© 2017 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+    $footer = '© '.$this->getYear().' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
       '<br/>' . $this->getSlogan();
 
     return $footer;
@@ -131,7 +139,7 @@ class OC_Theme {
    * @return string long footer
    */
   public function getLongFooter() {
-    $footer = '© 2017 <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+    $footer = '© '.$this->getYear().' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
       '<br/>' . $this->getSlogan();
 
     return $footer;
