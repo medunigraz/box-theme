@@ -22,6 +22,9 @@
 #body-user #header,
 #body-settings #header,
 #body-public #header {
+  background-color: #4a4a4a;
+}
+#body-user #header #appmenu > li {
   background-color: #007b3c;
 }
 
