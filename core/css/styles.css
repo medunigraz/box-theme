@@ -89,5 +89,6 @@ button.primary:focus,
 #header .logo-icon {
   background-image: url('../img/logo-icon.svg');
   width: 62px;
-  height: 34px;
+  height: 44px;
+  margin: 2px 0px;
 }
