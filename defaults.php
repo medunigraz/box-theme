@@ -36,6 +36,14 @@ class OC_Theme {
   }
 
   /**
+   * Returns the home URL
+   * @return string URL
+   */
+  public function getHomeUrl() {
+    return 'https://www.medunigraz.at';
+  }
+
+  /**
    * Returns the URL where the sync clients are listed
    * @return string URL
    */
@@ -128,7 +136,7 @@ class OC_Theme {
    * @return string short footer
    */
   public function getShortFooter() {
-    $footer = '© '.$this->getYear().' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+    $footer = '© '.$this->getYear().' <a href="'.$this->getHomeUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
       '<br/>' . $this->getSlogan();
 
     return $footer;
@@ -139,7 +147,7 @@ class OC_Theme {
    * @return string long footer
    */
   public function getLongFooter() {
-    $footer = '© '.$this->getYear().' <a href="'.$this->getBaseUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
+    $footer = '© '.$this->getYear().' <a href="'.$this->getHomeUrl().'" target="_blank\">'.$this->getEntity().'</a>'.
       '<br/>' . $this->getSlogan();
 
     return $footer;
