@@ -45,6 +45,10 @@
         */
 }
 
+#body-login .lost-password-container {
+  display: none;
+}
+
 /* primary action button, use sparingly */
 /* header color as border, brighter shade again, here as background */
 .primary,
