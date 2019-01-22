@@ -28,6 +28,10 @@
 #appmenu li span {
   transition: none;
 }
+#appmenu li a.active::before, #appmenu li:hover a::before, #appmenu li:hover a.active::before, #appmenu li a:focus::before {
+  display: none;
+}
+
 
 /* log in screen background color */
 /* gradient of the header color and a brighter shade */
