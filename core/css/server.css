@@ -25,6 +25,10 @@
   background-color: #4a4a4a;
 }
 
+#appmenu li span {
+  transition: none;
+}
+
 /* log in screen background color */
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
