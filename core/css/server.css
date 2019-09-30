@@ -96,7 +96,10 @@ button.primary:focus,
 }
 #header .logo-icon {
   background-image: url('../img/logo-icon.svg');
-  width: 62px;
+  width: 168px;
   height: 44px;
   margin: 2px 0px;
+}
+#header #nextcloud {
+  padding-left: 184px;
 }
