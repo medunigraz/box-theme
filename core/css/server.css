@@ -22,7 +22,7 @@
 #body-user #header,
 #body-settings #header,
 #body-public #header {
-  background-color: #4a4a4a;
+  background-color: #333333;
 }
 
 #appmenu li span {
@@ -37,7 +37,7 @@
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
 #body-login {
-  background: #4a4a4a;
+  background: #333333;
   /*
   background: #007b3c;
   background: -moz-linear-gradient(top, #4a4a4a 0%, #007b3c 100%);
@@ -53,6 +53,10 @@
 #body-login .lost-password-container {
   display: none;
 }
+.body-login-container.update {
+  /*background-color: #007934;*/
+  background-color: #ff7f45;
+}
 
 /* primary action button, use sparingly */
 /* header color as border, brighter shade again, here as background */
@@ -66,8 +70,8 @@ input[type="submit"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  border-color: #007b3c;
-  background-color: #4a4a4a;
+  border-color: #007934;
+  background-color: #555555;
 }
 .primary:hover,
 input[type="submit"].primary:hover,
@@ -85,7 +89,7 @@ button.primary:focus,
 .primary:disabled, input[type="submit"].primary:disabled, input[type="button"].primary:disabled, button.primary:disabled, .button.primary:disabled,
 .primary:disabled:hover, input[type="submit"].primary:disabled:hover, input[type="button"].primary:disabled:hover, button.primary:disabled:hover, .button.primary:disabled:hover,
 .primary:disabled:focus, input[type="submit"].primary:disabled:focus, input[type="button"].primary:disabled:focus, button.primary:disabled:focus, .button.primary:disabled:focus {
-  background-color: #007b3c;
+  background-color: #007934;
 }
 
 /* use logos from theme */
