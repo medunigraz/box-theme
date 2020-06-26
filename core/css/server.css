@@ -23,6 +23,7 @@
 #body-settings #header,
 #body-public #header {
   background-color: #333333;
+  background-image: none;
 }
 
 #appmenu li span {
